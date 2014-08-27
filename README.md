@@ -6,7 +6,7 @@ More than just a sass compiler. A SaSS workflow.
 
 # Reasons. 
 
-I use the term SaSS to mean both SaSS and CSS.
+(below I use the term SaSS to mean both SaSS and CSS)
 
 ## SaSS belongs next to the html that uses it 
 This way : 
@@ -26,3 +26,7 @@ Advantages:
 * Can you tell me all the places that will be impacted if you modify 
 your definition of `span6`. Probably not. You could if you just search for all the instances of `span6` in your sass if you don't use it in HTML.
 * Want to refactor `some-awesome-base-class` into `more-awesome-base-class`? if its not in html and only in your sass files, its a very trivial rename. 
+
+
+# Bad 
+Creating new CSS classes per html file quickly bloats your generated CSS with duplicates.
