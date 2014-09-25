@@ -27,6 +27,3 @@ Advantages:
 your definition of `span6`. Probably not. You could if you just search for all the instances of `span6` in your sass if you don't use it in HTML.
 * Want to refactor `some-awesome-base-class` into `more-awesome-base-class`? if its not in html and only in your sass files, its a very trivial rename. 
 
-
-# Bad 
-Creating new CSS classes per html file quickly bloats your generated CSS with duplicates.
